@@ -1,0 +1,37 @@
+=============== Oct 29, 2020 (EDT) ===============
+12:47:32.519485 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:47:32.546997 db@open opening
+12:47:32.547424 version@stat F·[] S·0B[] Sc·[]
+12:47:32.554496 db@janitor F·2 G·0
+12:47:32.554527 db@open done T·7.50369ms
+13:30:32.629987 db@close closing
+13:30:32.630891 db@close done T·903.23µs
+=============== Oct 29, 2020 (EDT) ===============
+13:35:51.991809 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:35:51.992994 version@stat F·[] S·0B[] Sc·[]
+13:35:51.993026 db@open opening
+13:35:51.993121 journal@recovery F·1
+13:35:51.993222 journal@recovery recovering @1
+13:35:52.036296 memdb@flush created L0@2 N·18559 S·359KiB "loc..seq,v47":"version,v1"
+13:35:52.036587 version@stat F·[1] S·359KiB[359KiB] Sc·[0.25]
+13:35:52.058349 db@janitor F·3 G·0
+13:35:52.058390 db@open done T·65.351044ms
+13:46:08.786673 db@close closing
+13:46:08.787302 db@close done T·627.96µs
+=============== Oct 29, 2020 (EDT) ===============
+17:23:06.700054 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:23:06.701468 version@stat F·[1] S·359KiB[359KiB] Sc·[0.25]
+17:23:06.701501 db@open opening
+17:23:06.701599 journal@recovery F·1
+17:23:06.701708 journal@recovery recovering @3
+17:23:06.713840 memdb@flush created L0@5 N·2084 S·64KiB "loc..seq,v18599":"n:\xfe..ong,v19109"
+17:23:06.714193 version@stat F·[2] S·424KiB[424KiB] Sc·[0.50]
+17:23:06.740200 db@janitor F·4 G·0
+17:23:06.740233 db@open done T·38.724445ms
+17:23:06.752173 table@compaction L0·2 -> L1·0 S·424KiB Q·20646
+17:23:06.769149 table@build created L1@8 N·5274 S·215KiB "loc..seq,v18599":"version,v1"
+17:23:06.769399 version@stat F·[0 1] S·215KiB[0B 215KiB] Sc·[0.00 0.00]
+17:23:06.778747 table@compaction committed F-1 S-208KiB Ke·0 D·15369 T·26.527489ms
+17:23:06.779567 table@remove removed @2
+17:49:13.766031 db@close closing
+17:49:13.768959 db@close done T·2.924667ms
